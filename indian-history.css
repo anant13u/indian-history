@@ -1,0 +1,38 @@
+.grandparent {
+    border: 2px solid firebrick;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+    .parent1, .parent2 {
+        border: 2px solid greenyellow;
+    }
+
+    .parent2 {
+        width: 300px;
+    }
+
+        #introContent {
+            border: 2px solid blueviolet;
+            width: 500px;
+        }
+
+
+
+
+
+/* display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+gap: 35px;
+align-items: center;
+height: 90vh;
+
+#search-box:hover {
+    cursor: pointer;
+    } */
+
+/* border: 2px solid firebrick; */
+/* border: 2px solid greenyellow; */
+                
