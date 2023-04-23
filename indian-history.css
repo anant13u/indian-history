@@ -40,8 +40,17 @@ body {
         }
 
     .parent2 {
+        border: 1px solid orange;
         min-width: 400px;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
     }
+    
+    ul {
+            border: 2px solid blueviolet;
+            gap: 10px;
+        }
 
         #introContent {
             /* border: 2px solid blueviolet; */
