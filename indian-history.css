@@ -5,31 +5,20 @@ body {
 .grandparent {
     border: 2px solid firebrick;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    /* justify-content: flex-end; */
     height: 100vh;
 }
 
-    .parent1, .parent2 {
-        border: 2px solid greenyellow;
-    }
-
-    .parent1 {
-        /* min-width: 1480px; */
-        min-width: 85vw;
+    .header-container {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        gap: 40px;
-    }
-
-    .parent1 > * {
-        /* margin: 30px; */
-        /* border: 1px solid orange; */
+        height: 20vh;
     }
 
         #main-header {
-            margin: 50px 0 0;
+            /* margin: 50px 0 0; */
             /* border: 1px solid orange; */
             line-height: 0.6;
             font-size: 90px;
@@ -40,24 +29,48 @@ body {
             font-size: 42.5px;
         }
 
-        #introContent {
-            /* border: 2px solid blueviolet; */
-            width: 500px;
-        }
 
-    .parent2 {
-        border: 1px solid orange;
-        /* min-width: 300px; */
-        min-width: 15vw;
+    .parent {
         display: flex;
-        gap: 5px;
-        justify-content:center;
-        flex-direction: column;
     }
 
-        .rightLinks {
-            margin: 10px 0 0 70px;
+        .child1, .child2 {
+            border: 2px solid greenyellow;
         }
+
+        .child1 {
+            /* min-width: 1480px; */
+            min-width: 85vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .child1 > * {
+            /* margin: 30px; */
+            /* border: 1px solid orange; */
+        }
+
+            #introContent {
+                /* border: 2px solid blueviolet; */
+                width: 500px;
+            }
+
+        .child2 {
+            border: 1px solid orange;
+            /* min-width: 300px; */
+            min-width: 15vw;
+            display: flex;
+            gap: 5px;
+            justify-content:center;
+            flex-direction: column;
+        }
+
+            .rightLinks {
+                margin: 10px 0 0 70px;
+            }
 
 
 
