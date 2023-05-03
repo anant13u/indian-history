@@ -32,6 +32,7 @@ body {
 
     .parent {
         display: flex;
+        height: 40vh;
     }
 
         .child1, .child2 {
@@ -40,7 +41,7 @@ body {
 
         .child1 {
             /* min-width: 1480px; */
-            min-width: 85vw;
+            min-width: 79vw;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -48,28 +49,37 @@ body {
             gap: 40px;
         }
 
-        .child1 > * {
-            /* margin: 30px; */
-            /* border: 1px solid orange; */
-        }
-
             #introContent {
-                /* border: 2px solid blueviolet; */
-                width: 500px;
+                border: 2px solid blueviolet;
+                width: 700px;
             }
 
         .child2 {
             border: 1px solid orange;
             /* min-width: 300px; */
-            min-width: 15vw;
+            min-width: 19vw;
             display: flex;
-            gap: 5px;
+            gap: 15px;
             justify-content:center;
+            align-items: center;
             flex-direction: column;
         }
 
             .rightLinks {
-                margin: 10px 0 0 70px;
+                /* margin: 10px 0 0 50px; */
+                margin: 0;
+                border: 2px solid rgba(0, 0, 0, 0.151);
+                border-radius: 35px;
+                padding: 8px 12px;
+                background-color: #4a4a4a;
+                color: whitesmoke;
+                width: 150px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .rightLinks::after {
+                color: whitesmoke;
             }
 
 
