@@ -1,0 +1,17 @@
+.grandparent {
+    border: 2px solid salmon;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+    .parent {
+        border: 2px solid yellow;
+        width: 50%;
+    }
+    
+        .content {
+            font-size: 20px;
+        }
+        
