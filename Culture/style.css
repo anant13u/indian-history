@@ -17,7 +17,7 @@ body {
     background: url(map-india-col-authentic-4959894.jpg);
     background-size: cover;
     left: 130px;
-    backdrop-filter: blur(28px);
+    backdrop-filter: blur(38px);
 }
 
 .grandparent {
@@ -27,7 +27,7 @@ body {
 }
 
     .parent-images1, .parent-images2 {
-        margin: 100px 0;
+        margin: 200px 0;
         /* border: 2px solid yellow; */
         width: 30%;
         display: flex;
@@ -49,12 +49,14 @@ body {
     
         #main-heading {
             /* border: 2px solid salmon; */
-            font-size: 36px;
+            font-size: 48px;
             text-align: center;
+            color: burlywood;
         }
 
         .content {
             font-size: 20px;
             line-height: 1.3;
+            /* color: rgb(43, 41, 41); */
         }
 
